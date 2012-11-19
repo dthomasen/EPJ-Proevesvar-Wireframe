@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Image" id="5" x="82" y="37" width="838" height="526" measuredWidth="838" measuredHeight="526" src="assets/HTC%20flyer%20size%20-%201024X600/tablet_landscape.png"/>
+  <widgets xsi:type="model:Label" id="9" x="302" y="122" text="Login" measuredWidth="109" measuredHeight="67" textAlignment="Center">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="262" y="226" width="193" measuredWidth="193" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="12" x="262" y="289" width="193" measuredWidth="193" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="262" y="197" text="Brugernavn" measuredWidth="66" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="262" y="261" text="Password" measuredWidth="55" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="16" x="329" y="325" width="55" text="Login" measuredWidth="55" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="20" x="166" y="356" height="149" measuredWidth="667" measuredHeight="149">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#Keyboard%20Tablet"/>
+    <overrides>
+      <widgets ref="347" width="667" height="149"/>
+      <widgets ref="348" x="55" y="2" width="47" height="32"/>
+      <widgets ref="350" x="110" y="2" width="47" height="32"/>
+      <widgets ref="351" x="165" y="2" width="47" height="32"/>
+      <widgets ref="352" x="221" y="2" width="47" height="32"/>
+      <widgets ref="353" x="276" y="2" width="47" height="32"/>
+      <widgets ref="354" x="331" y="2" width="47" height="32"/>
+      <widgets ref="355" x="386" y="2" width="47" height="32"/>
+      <widgets ref="356" x="440" y="2" width="47" height="32"/>
+      <widgets ref="357" x="497" y="2" width="47" height="32"/>
+      <widgets ref="358" x="552" y="2" width="47" height="32"/>
+      <widgets ref="360" x="2" y="2" width="46" height="32"/>
+      <widgets ref="362" x="75" y="39" width="46" height="32"/>
+      <widgets ref="363" x="129" y="39" width="46" height="32"/>
+      <widgets ref="364" x="185" y="39" width="46" height="32"/>
+      <widgets ref="365" x="239" y="39" width="46" height="32"/>
+      <widgets ref="366" x="293" y="39" width="46" height="32"/>
+      <widgets ref="367" x="346" y="39" width="46" height="32"/>
+      <widgets ref="368" x="402" y="39" width="46" height="32"/>
+      <widgets ref="369" x="456" y="39" width="46" height="32"/>
+      <widgets ref="370" x="510" y="39" width="46" height="32"/>
+      <widgets ref="371" x="93" y="77" width="46" height="32"/>
+      <widgets ref="372" x="147" y="77" width="46" height="32"/>
+      <widgets ref="373" x="201" y="77" width="46" height="32"/>
+      <widgets ref="374" x="255" y="77" width="46" height="32"/>
+      <widgets ref="375" x="308" y="77" width="46" height="32"/>
+      <widgets ref="376" x="362" y="77" width="46" height="32"/>
+      <widgets ref="377" x="416" y="77" width="46" height="32"/>
+      <widgets ref="378" x="470" y="77" width="46" height="32"/>
+      <widgets ref="379" x="523" y="77" width="46" height="32"/>
+      <widgets ref="380" x="2" y="39" width="66" height="32"/>
+      <widgets ref="381" x="102" y="115" width="46" height="31"/>
+      <widgets ref="382" x="156" y="115" width="46" height="31"/>
+      <widgets ref="383" x="210" y="115" width="242" height="31"/>
+      <widgets ref="384" x="460" y="115" width="46" height="31"/>
+      <widgets ref="385" x="514" y="115" width="46" height="31"/>
+      <widgets ref="386" x="614" y="115" width="46" height="31"/>
+      <widgets ref="387" x="607" y="2" width="53" height="32"/>
+      <widgets ref="390" x="564" y="39" height="32"/>
+      <widgets ref="388" width="96" height="32"/>
+      <widgets ref="389" x="37" y="9" width="19" height="10"/>
+      <widgets ref="394" x="577" y="77" height="32"/>
+      <widgets ref="392" width="83" height="32"/>
+      <widgets ref="393" x="33" y="9" width="12" height="10"/>
+      <widgets ref="395" x="2" y="77" height="32"/>
+      <widgets ref="396" width="84" height="32"/>
+      <widgets ref="397" x="33" y="9" width="12" height="10"/>
+      <widgets ref="402" x="2" y="115" height="31"/>
+      <widgets ref="400" width="46" height="31"/>
+      <widgets ref="401" x="17" y="9" width="10" height="8"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="21" x="166" y="104" width="667" measuredWidth="667" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#Status%20Bar%20Landscape"/>
+    <overrides>
+      <widgets ref="116" width="667"/>
+      <widgets ref="117" x="555" width="17"/>
+      <widgets ref="118" x="578" width="17"/>
+      <widgets ref="119" x="602" width="17"/>
+      <widgets ref="120" x="616" width="50"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Image" id="22" x="10" y="10"/>
+  <widgets xsi:type="model:Image" id="24" x="543" y="139" width="194" height="198" measuredWidth="194" measuredHeight="198" src="assets/lock.png"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

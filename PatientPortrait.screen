@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Image" id="3" x="264" y="32" width="413" height="663" measuredWidth="413" measuredHeight="663" src="assets/HTC%20flyer%20size%20-%201024X600/tablet_portrait.png"/>
+  <widgets xsi:type="model:Master" id="7" x="317" y="96" width="312" measuredWidth="312" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#Status%20Bar"/>
+    <overrides>
+      <widgets ref="38" width="312"/>
+      <widgets ref="39" x="224" width="13"/>
+      <widgets ref="40" x="242" width="13"/>
+      <widgets ref="41" x="261" width="13"/>
+      <widgets ref="46" x="272" width="38"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="9" x="317" y="123" width="312" measuredWidth="312" measuredHeight="33">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#Action%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="666"/>
+      <widgets ref="690" x="0" y="6" width="9"/>
+      <widgets ref="687" height="18"/>
+      <widgets ref="670" x="9" y="3" width="26" height="24"/>
+      <widgets ref="669" x="39" y="0" width="79" text="Patient"/>
+      <widgets ref="672" x="227" y="6" width="20" height="18"/>
+      <widgets ref="693" x="274" y="6" width="20"/>
+      <widgets ref="667" width="20" height="18"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Image" id="16" x="453" y="296"/>
+  <widgets xsi:type="model:Label" id="18" x="392" y="173" text="Karen Mogensen" measuredWidth="94" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="349" y="173" text="Name:" measuredWidth="41" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="392" y="192" text="100969-5868" measuredWidth="70" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="358" y="192" text="CPR:" measuredWidth="30" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="392" y="210" text="43" measuredWidth="17" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="358" y="210" text="Age:" measuredWidth="30" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="392" y="229" text="Female" measuredWidth="43" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="337" y="229" text="Gender:" measuredWidth="50" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="26" x="332" y="320" width="279" height="289" measuredWidth="279" measuredHeight="289"/>
+  <widgets xsi:type="model:Text" id="27" x="342" y="330" width="250" height="269" measuredWidth="250" measuredHeight="269" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="332" y="295" text="Latest Lab Result:" measuredWidth="96" measuredHeight="23">
+    <font underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="29" x="492" y="209" text="Previous Lab Results" measuredWidth="127" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="392" y="246" text="Glowing green" measuredWidth="82" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="327" y="246" text="Condition:" measuredWidth="61" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
