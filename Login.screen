@@ -10,7 +10,7 @@
   <widgets xsi:type="model:TextField" id="12" x="262" y="289" width="193" measuredWidth="193" measuredHeight="23" textAlignment="Center">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="13" x="262" y="197" text="Brugernavn" measuredWidth="66" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="13" x="262" y="197" text="Username" measuredWidth="58" measuredHeight="23">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="14" x="262" y="261" text="Password" measuredWidth="55" measuredHeight="23">

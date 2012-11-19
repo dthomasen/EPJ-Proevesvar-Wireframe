@@ -20,7 +20,9 @@
   <widgets xsi:type="model:Button" id="13" x="336" y="536" width="273" height="81" text="Logout" measuredWidth="273" measuredHeight="81">
     <font size="17px" bold="true"/>
   </widgets>
-  <hRuler/>
+  <hRuler>
+    <guides position="849"/>
+  </hRuler>
   <vRuler/>
   <font size="12px"/>
 </model:Screen>
